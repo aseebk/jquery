@@ -1,0 +1,76 @@
+jQuery Introduction:
+-------------------
+jQuery is a fast, small, and feature-rich JavaScript library. It simplifies various tasks
+like HTML document traversal and manipulation, event handling, animation, and AJAX interactions
+for rapid web development. jQuery makes it easy to write less code while achieving more functionality.
+
+jQuery Syntax:
+--------------
+The basic syntax of jQuery involves selecting elements using jQuery selectors and then
+performing actions on those elements using jQuery methods. It typically follows the format: $(selector).action().
+
+jQuery Selectors:
+-----------------
+jQuery selectors allow you to "select" and manipulate HTML elements on a web page.
+You can use various types of selectors like element selectors, ID selectors, class selectors,
+to target specific elements.
+
+jQuery Events:
+--------------
+jQuery allows you to attach event handlers to HTML elements. Common events include click, hover,
+keyup, etc. Event handling in jQuery simplifies the process of writing JavaScript code to respond to user interactions.
+
+jQuery Hide/Show:
+----------------
+jQuery provides methods like .hide() and .show() to hide or display elements on a web page.
+These methods can be used to change the visibility of elements dynamically.
+
+jQuery Fade:
+----------------
+jQuery provides fade-related methods like .fadeIn(), .fadeOut(), .fadeToggle(), and .fadeTo()
+to create fade effects on elements. These methods gradually change the opacity of elements to create smooth transitions.
+
+jQuery Slide:
+-------------
+jQuery offers slide-related methods like .slideUp(), .slideDown(), and .slideToggle() to create
+sliding effects on elements. These methods animate the height of elements to create sliding animations.
+
+jQuery Animate:
+---------------
+The .animate() method in jQuery allows you to create custom animations on HTML elements.
+It provides flexibility to animate various CSS properties like width, height, opacity, etc.,
+using specified values and durations.
+
+jQuery Get/Set:
+---------------
+jQuery provides methods to get and set the content or attributes of HTML elements. Methods
+like .text(), .html(), .val(), .attr(), etc., allow you to retrieve or modify element properties.
+
+jQuery Add/Remove:
+------------------
+jQuery provides methods to dynamically add or remove HTML elements from the DOM (Document Object Model).
+Methods like .append(), .prepend(), .remove(), .empty(), etc., help in manipulating the DOM structure.
+
+jQuery Class:
+--------------
+It provides a variety of methods to manipulate CSS classes on HTML elements.
+Here are some commonly used methods:
+
+*addClass(): This method adds one or more CSS classes to the selected elements.
+            $("selector").addClass("className");
+
+*removeClass(): This method removes one or more CSS classes from the selected elements.
+            $("selector").removeClass("className");
+
+*toggleClass(): This method toggles the specified CSS class on the selected elements.
+               If the class exists, it is removed; if it does not exist, it is added.
+                $("selector").toggleClass("className");
+
+*hasClass(): This method checks if the selected elements have the specified CSS class.
+            if ($("selector").hasClass("className")) {
+               }
+
+*css(): Though not specifically for manipulating classes, the css() method can be used
+        to directly set CSS properties of elements.
+             $("selector").css("propertyName", "value");
+

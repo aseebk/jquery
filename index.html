@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="
+https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+"></script>
+<script>
+    // id selector
+
+    $(document).ready(function(){
+      $(".button").click(function(){
+        $("#idsel").hide();
+      });
+    });
+
+    // element selector
+
+    $(document).ready(function(){
+  $(".btn").click(function(){
+    $("h5").hide();
+  });
+});
+
+// class selector
+
+$(document).ready(function(){
+  $(".bt").click(function(){
+    $(".classel").hide();
+  });
+});
+
+    </script>
+    </head>
+    <body>
+    <!-- id selector -->
+
+    <h2>Id selector</h2>
+    
+    <p>This is a paragraph.</p>
+    <p id="idsel">This is another paragraph.</p>
+    
+    <button class="button">Click me</button>
+    <hr>
+
+    <!-- element selector -->
+
+    <h2>Element Selector</h2>
+
+<h5>This is a paragraph.</h5>
+<h5>This is another paragraph.</h5>
+
+<button class="btn">Click me to hide paragraphs</button>
+<hr>
+
+<!-- class selector -->
+<h2 class="classel">This is a heading</h2>
+
+<p class="classel">This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button class="bt">Click me</button>
+    
+</body>
+</html>
