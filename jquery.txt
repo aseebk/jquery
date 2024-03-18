@@ -18,7 +18,7 @@ to target specific elements.
 jQuery Events:
 --------------
 jQuery allows you to attach event handlers to HTML elements. Common events include click, hover,
-keyup, etc. Event handling in jQuery simplifies the process of writing JavaScript code to respond to user interactions.
+ Event handling in jQuery simplifies the process of writing JavaScript code to respond to user interactions.
 
 jQuery Hide/Show:
 ----------------
