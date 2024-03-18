@@ -27,7 +27,7 @@ These methods can be used to change the visibility of elements dynamically.
 
 jQuery Fade:
 ----------------
-jQuery provides fade-related methods like .fadeIn(), .fadeOut(), .fadeToggle(), and .fadeTo()
+jQuery provides fade-related methods like .fadeIn(), .fadeOut(), .fadeToggle()
 to create fade effects on elements. These methods gradually change the opacity of elements to create smooth transitions.
 
 jQuery Slide:
