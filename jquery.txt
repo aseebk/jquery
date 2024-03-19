@@ -74,10 +74,6 @@ Here are some commonly used methods:
                If the class exists, it is removed; if it does not exist, it is added.
                 $("selector").toggleClass("className");
 
-*hasClass(): This method checks if the selected elements have the specified CSS class.
-            if ($("selector").hasClass("className")) {
-               }
-
 *css(): Though not specifically for manipulating classes, the css() method can be used
         to directly set CSS properties of elements.
              $("selector").css("propertyName", "value");
