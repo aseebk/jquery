@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Class</title>
+    <link rel="stylesheet" href="./class.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    
+
+    <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("h1, h2, p").removeClass("remove");
+  });
+});
+    </script>
+</head>
+<body>
+    
+<div style="height: 200px; width: 300px; background-color: rgb(89, 151, 151);">
+    <h1 class="remove">Class</h1>
+    <h2 class="remove">Remove Class</h2>
+    
+    <p class="remove">This is a paragraph.</p>
+    <p>Click the button color were removed</p>
+</div>
+<br>
+
+<button class="bt">Remove</button>
+</body>
+</html>

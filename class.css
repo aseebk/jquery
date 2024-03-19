@@ -9,10 +9,11 @@
   .bt{
     background-color: rgb(189, 189, 216);
     border-radius: 9px;
-    font-size: 24px;
     border: 1px solid rgb(29, 26, 26);
   }
   .bt:hover{
     color: rgb(185, 26, 26);
   }
-  
+  .remove {
+    color: blue;
+  }
