@@ -44,7 +44,10 @@ using specified values and durations.
 jQuery Get/Set:
 ---------------
 jQuery provides methods to get and set the content or attributes of HTML elements. Methods
-like .text(), .html(), .val(), .attr(), etc., allow you to retrieve or modify element properties.
+like .text(), .html(), .val(), .attr() allow you to retrieve or modify element properties.
+           text() - Sets or returns the text content of selected elements
+           html() - Sets or returns the content of selected elements (including HTML markup)
+           val() - Sets or returns the value of form fields
 
 jQuery Add/Remove:
 ------------------
