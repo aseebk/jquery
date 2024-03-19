@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Query</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script>
+        // function using html(),text(),val()
+        $(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#test1").text("Kollam!");
+  });
+  $("#btn2").click(function(){
+    $("#test2").html("<b>Kollam Kerala!</b>");
+  });
+  $("#btn3").click(function(){
+    $("#test3").val("Kollam");
+  });
+});
+    </script>
+</head>
+<body>
+    
+    <h2>Set Query using html(),val(),text()</h2>
+    <p id="test1">This is a paragraph.</p>
+<p id="test2">This is another paragraph.</p>
+
+<p>Input field: <input type="text" id="test3" value="District"></p>
+
+<button id="btn1">Set Text</button>
+<button id="btn2">Set HTML</button>
+<button id="btn3">Set Value</button>
+<hr>
+
+</body>
+</html>
