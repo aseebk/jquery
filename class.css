@@ -7,7 +7,7 @@
     color: rgb(227, 25, 79);
   }
   .bt{
-    background-color: rgb(189, 189, 216);
+    background-color: rgb(158, 158, 219);
     border-radius: 9px;
     border: 1px solid rgb(29, 26, 26);
   }
@@ -15,5 +15,5 @@
     color: rgb(185, 26, 26);
   }
   .remove {
-    color: blue;
+    color: rgb(33, 18, 235);
   }

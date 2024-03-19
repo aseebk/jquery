@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Class</title>
+    <link rel="stylesheet" href="./class.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("h1,h2,p").toggleClass("remove");
+    });
+});
+    </script>
+</head>
+<body>
+    <div style="height: 200px; width: 300px; background-image: linear-gradient(rgb(221, 109, 109),rgb(112, 112, 137));">
+        <h1>Class</h1>
+    <h2>Toggle Class</h2>
+    
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    
+    </div>
+    <br>
+<button class="bt">Toggle</button>
+</body>
+</html>
