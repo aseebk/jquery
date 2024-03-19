@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Class</title>
+    <link rel="stylesheet" href="./class.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").css("background-color","green");
+    });
+});
+    </script>
+</head>
+<body>
+   <div style="height: 300px;width: 500px; background-image: linear-gradient(rgb(194, 138, 138),rgb(151, 151, 213));">
+        <h2>CSS Classes</h2>
+    
+    <p style="background-color:#895252">This is a paragraph.</p>
+    <p style="background-color:#54af54">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p style="background-color:#4d4d91"> Excepturi, iste vitae. Modi deserunt recusandae officia?</p>
+    
+    <p> Voluptatibus dolorum autem magnam accusamus aperiam animi nesciunt esse excepturi commodi.</p>
+   </div>
+   <br>
+
+<button class="bt">Set background-color of p</button>
+
+</body>
+</html>
