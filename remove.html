@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Query</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <script>
+        // remove query
+$(document).ready(function(){
+    $(".button").click(function(){
+        $("#div1").remove();
+    });
+});
+
+// empty query
+$(document).ready(function(){
+    $(".btn").click(function(){
+        $("#div2").empty();
+    });
+
+});
+    </script>
+
+</head>
+<body>
+    
+    <h2>Remove Query</h2>
+
+    <div id="div1" style="height:200px;width:300px;border:1px solid black;background-color:rgb(228, 228, 221);">
+    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   <p> Similique consequuntur vitae obcaecati harum. Quas odio qui quidem neque facilis,</p>
+<p>corporis repudiandae reiciendis natus perferendis aspernatur eos, alias, rerum vero odit.</p> 
+</div>
+<br>
+<button class="button">Remove</button>
+ <hr>
+
+ <h2>Empty Query</h2>
+ <div id="div2" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
+
+    This is some text in the div.
+    <p>This is a paragraph in the div.</p>
+    <p>This is another paragraph in the div.</p>
+    
+    </div>
+    <br>
+    
+    <button class="btn">Empty the div element</button>
+
+</body>
+</html>
