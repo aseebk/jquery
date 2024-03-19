@@ -53,6 +53,11 @@ jQuery Add/Remove:
 ------------------
 jQuery provides methods to dynamically add or remove HTML elements from the DOM (Document Object Model).
 Methods like .append(), .prepend(), .remove(), .empty(), etc., help in manipulating the DOM structure.
+              append() - Inserts content at the end of the selected elements
+              prepend() - Inserts content at the beginning of the selected elements
+              remove() - Removes the selected element (and its child elements)
+              empty() - Removes the child elements from the selected element
+
 
 jQuery Class:
 --------------
